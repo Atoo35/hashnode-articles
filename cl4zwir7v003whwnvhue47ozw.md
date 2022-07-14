@@ -274,7 +274,7 @@ The bot should reply `How are you?` in your Discord chat like this
 If you're liked my article, consider supporting me with a coffee ☕️ or some crypto ( ₿, ⟠, etc) 
 
 Here is my public address `0x7935468Da117590bA75d8EfD180cC5594aeC1582`
-<a href="https://www.buymeacoffee.com/capscode" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+<a href="https://www.buymeacoffee.com/atoo" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
 ### Lets connect
 [Github](https://github.com/Atoo35)
@@ -284,8 +284,6 @@ Here is my public address `0x7935468Da117590bA75d8EfD180cC5594aeC1582`
 [Twitter](https://twitter.com/atharva_35)
 
 ### Feedback
-Let me know if I have missed something or provided the wrong info. It helps me keep genuine content and learn as well.
+Let me know if I have missed something or provided the wrong info. It helps me keep genuine content and learn.
 
-> Note: There's something called as a command handler where it's easier to write multiple commands and not worry about deploying and listening to each of them individually. Let me know if you are interested to knowing about it in comments.
-    
   
