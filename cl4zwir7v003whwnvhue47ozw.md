@@ -271,7 +271,7 @@ The bot should reply `How are you?` in your Discord chat like this
 
 
 ### Support
-If you're liked my article, consider supporting me with a coffee ☕️ or some crypto ( ₿, ⟠, etc) 
+If you liked my article, consider supporting me with a coffee ☕️ or some crypto ( ₿, ⟠, etc) 
 
 Here is my public address `0x7935468Da117590bA75d8EfD180cC5594aeC1582`
 <a href="https://www.buymeacoffee.com/atoo" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Coffee" height="41" width="174"></a>
