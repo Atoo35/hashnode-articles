@@ -1,4 +1,4 @@
-# Hello Ethernaut
+# Ethernaut Challenge Level 0
 
 Hello everyone, this article is the first one in the series of my Ethernaut Journey. I hope to be regular and reach the end. LFG!!!
 
