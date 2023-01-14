@@ -2,7 +2,7 @@
 
 Hey everyone, here is the second article of my series on Ethernaut journey. It's going well for now at least hahaha.
 
-> NOTE: You don't need to read through the entire article if you are looking for some solution to your problem. Head down to the challenges section and see if I encountered the same challenge as you***.***
+> NOTE: You don't need to read through the entire article if you are looking for some solution to your problem. Head down to the challenges section and see if I encountered the same challenge as you.
 
 # Introduction
 
@@ -37,10 +37,9 @@ Anyway, I then saw the `receive` function and it became very clear what was need
 
 1. Contribute some eth using the `contribute` function, keeping in mind the constraint on `value` in the function i.e. I should send &lt;0.001 ether.
     
-
-1. Invoke the receive function and voila.
+2. Invoke the receive function and voila.
     
-2. Of course, call the `withdraw` function to get my money back haha.
+3. Of course, call the `withdraw` function to get my money back haha.
     
 
 How to call the contribute function you ask?
