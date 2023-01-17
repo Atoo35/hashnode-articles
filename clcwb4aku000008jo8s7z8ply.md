@@ -34,6 +34,13 @@ Don't forget to get your eth back by using the `collectAllocation` function.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1673218380372/384c46fb-806c-45b5-b9f5-ff7bd118fd3d.png align="center")
 
+# Challenges
+
+1. I wasn't able to quickly spot the spelling mistake in the constructor function name.
+    
+    Solution: First off, clean your eyes and secondly just directly call the so-called constructor lookalike `Fal1out` like a normal function to claim ownership.
+    
+
 # Support
 
 If you liked my article, consider supporting me with a coffee ☕️ or some crypto ( ₿, ⟠, etc)
