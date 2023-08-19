@@ -37,10 +37,9 @@ Hey there, in this tutorial we are going to be building a very rudimentary TODO 
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690802632292/25f6995e-1144-4c5e-a934-a3cde49de820.png align="center")
     
-      
-    The `api` folder will contain code related to creating and handling the API calls. `database` folder is self-explanatory and would contain code to connect to SurrealDB. `models` represent the database models. Ignore the `tmp` folder since that is generated automatically by gin/gonic to log errors and build files
+    The `api` folder will contain code related to creating and handling the API calls. `database` folder is self-explanatory and would contain code to connect to SurrealDB. `models` represent the database models. Ignore the `tmp` folder since that is generated automatically to log errors and build files
     
-4. Let's start with the `database/database.go` file. Paste the below code into the file.  
+4. Let's start with the `database/database.go` file. Paste the below code into the file.
     
     ```go
     package database
@@ -82,7 +81,7 @@ Hey there, in this tutorial we are going to be building a very rudimentary TODO 
     The `Connect` function accepts the connection string and the username and password used to connect to the database. This username and password is set when you start the SurrealDB instance by using the below command
     
     ```bash
-    surreal start -u root -p root   
+    surreal start -u root -p root
     ```
     
     We set the `namespace` and the database name in this function.
@@ -95,8 +94,7 @@ Hey there, in this tutorial we are going to be building a very rudimentary TODO 
     
     The namespace is `test` and the database name is `tasks`.
     
-
-1. Let's now create the `models/task.go` file. This file is simply a database model or a table in the database. The columns in the tables would be the attributes we set in this model.
+5. Let's now create the `models/task.go` file. This file is simply a database model or a table in the database. The columns in the tables would be the attributes we set in this model.
     
     ```go
     package models
@@ -109,7 +107,7 @@ Hey there, in this tutorial we are going to be building a very rudimentary TODO 
     }
     ```
     
-2. Now the most important implementation file. In the `handlers/task.go` file, paste the below code which handles all the interaction with the database. This is the file which would process all the incoming requests and serve the response accordingly.
+6. Now the most important implementation file. In the `handlers/task.go` file, paste the below code which handles all the interaction with the database. This is the file which would process all the incoming requests and serve the response accordingly.
     
     ```go
     package handlers
@@ -263,7 +261,7 @@ Hey there, in this tutorial we are going to be building a very rudimentary TODO 
     
     > Note: You would need to install gin/gonic here by running `go get install "github.com/gin-gonic/gin"`
     
-3. The next file is `routes/routes.go`. In this file we simply redirect the incoming request to the corresponding handler. Here is the code.
+7. The next file is `routes/routes.go`. In this file we simply redirect the incoming request to the corresponding handler. Here is the code.
     
     ```go
     package routes
@@ -293,7 +291,7 @@ Hey there, in this tutorial we are going to be building a very rudimentary TODO 
     
     We are grouping all the `tasks` related APIs by using the `router.Group()` function provided by gin/gonic for creating readable and simple routes.
     
-4. The final file is the `main.go` file in the root of the project. This file initializes the database and connects to it and starts the server.
+8. The final file is the `main.go` file in the root of the project. This file initializes the database and connects to it and starts the server.
     
     ```go
     package main
